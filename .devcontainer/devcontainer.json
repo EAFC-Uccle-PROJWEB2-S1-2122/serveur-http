@@ -17,14 +17,16 @@
   "extensions": [
     "dbaeumer.vscode-eslint",
     "editorconfig.editorconfig",
-    "esbenp.prettier-vscode"
+    "esbenp.prettier-vscode",
+    "vscode-icons-team.vscode-icons",
+    "humao.rest-client"
   ],
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
   "forwardPorts": [
     3000
   ],
   // Use 'postCreateCommand' to run commands after the container is created.
-  //"postCreateCommand": "npm install",
+  "postCreateCommand": "npm install",
   // Comment out connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
   "remoteUser": "node"
 }
