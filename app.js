@@ -11,4 +11,9 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, "public")));
 
+app.get("/dynamic", function (req, res) {
+  res.type("text");
+  res.send("Hello World!");
+});
+
 module.exports = app;
