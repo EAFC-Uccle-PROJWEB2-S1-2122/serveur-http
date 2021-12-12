@@ -9,3 +9,7 @@ If-Modified-Since: Sun, 12 Dec 2021 18:15:57 GMT
 
 GET http://localhost:3000/index.html
 If-None-Match: W/"b0-17dafb9929d"
+
+###
+
+GET http://localhost:3000/formulaire.html
