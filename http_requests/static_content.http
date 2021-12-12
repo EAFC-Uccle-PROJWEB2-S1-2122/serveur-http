@@ -1,1 +1,11 @@
 GET http://localhost:3000/index.html
+
+###
+
+GET http://localhost:3000/index.html
+If-Modified-Since: Sun, 12 Dec 2021 17:38:34 GMT
+
+###
+
+GET http://localhost:3000/index.html
+If-None-Match: W/"b0-17dafb9929d"
