@@ -17,8 +17,14 @@
     "nodemon": "^2.0.15"
   },
   "nodemonConfig": {
+    "ext": "js,jsx",
     "ignore": [
-      "public/*"
+      "http_requests/",
+      "public/"
+    ],
+    "watch": [
+      "bin/www",
+      "./"
     ]
   }
 }
